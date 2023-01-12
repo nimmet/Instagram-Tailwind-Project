@@ -1,13 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../dist/output.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../dist/output.css" />
     <title>Instagram Clone</title>
-</head>
-<body>
-    <h1 class=" font-bold italic text-cyan-700">Instagram</h1>
-</body>
+  </head>
+  <body>
+    <div class="sticky top-0 border-b shadow-sm bg-white z-30">
+      <!-- Instagram Header -->
+
+      <div
+        class="flex justify-between items-center h-24 mx-4 xl:max-w-6xl xl:mx-auto"
+      >
+        <!-- Left -->
+
+        <div class="">
+          <div class="cursor-pointer w-24 hidden lg:inline-grid">
+            <img
+              src="https://logos-world.net/wp-content/uploads/2020/04/Instagram-Logo.png"
+              alt="instagram-logo"
+            />
+          </div>
+          <div class="cursor-pointer w-10 lg:hidden">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/1025px-Instagram-Icon.png"
+              alt="instagram-logo"
+            />
+          </div>
+        </div>
+
+        <!-- Middle -->
+        <div class="relative mt-1">
+          <div class="absolute top-2 left-2">
+            <svg
+              class="h-5 w-5 text-gray-500"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+              />
+            </svg>
+          </div>
+
+          <input
+            class="pl-10 rounded-md focus:ring-black focus:border-black bg-gray-50 border-gray-500 text-sm"
+            type="text"
+            placeholder="Search"
+          />
+        </div>
+
+        <!-- Right -->
+        <div class="flex space-x-4 items-center">
+            <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6 cursor-pointer hover:scale-125 transition-transform duration-200 ease-out hidden md:inline-flex"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+          >
+            <path
+              d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"
+            />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6 cursor-pointer hover:scale-125 transition-transform duration-200 ease-out"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
+            />
+          </svg>
+
+          <img
+            class="h-10 w-10 rounded-full cursor-pointer"
+            src="https://cdn.siasat.com/wp-content/uploads/2020/10/Uyghurn-Muslim.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- Feed -->
+  </body>
 </html>
